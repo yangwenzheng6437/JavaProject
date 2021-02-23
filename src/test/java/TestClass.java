@@ -11,7 +11,7 @@ public class TestClass {
         System.out.println(jedis.getClient().getPort());
         jedis.set("1","hash");
         System.out.println(jedis.get("" +
-                "1"));士大夫大师傅
+                "1"));
 
     }
 
